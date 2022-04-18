@@ -1,22 +1,27 @@
 .vx {
 	border: 3px double #07A3DD;
-	height: 80px;
-	width: 800px;
+
 }
 .vx > div {
 	background-color: #F1AD9F;
 	border: 3px double #07A3DD;
-	font-size: 40px;
+	font-size: 20px;
 }
 .vx > div:nth-child(2n-1) {
 	background-color: #ECCBF9;	
+}
 
 .second {
 	border: 3px double #07A3DD;
-	height: 80px;
-	width: 800px;
 }
 .second > div {
 	background-color: #F1AD9F;
-	font-size: 40px;
+	font-size: 20px;
+}
+.vx:hover {
+	display: none;
+}
+
+.vx:hover .second {
+	display: inline-block;
 }
